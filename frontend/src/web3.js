@@ -2,11 +2,16 @@ import { ethers } from "ethers";
 import ShipmentManagerABI from "./utils/ShipmentManagerABI.json";
 import ShipmentABI from "./utils/ShipmentABI.json";
 import { contractAddress } from "./utils/contractAddress";
+import { toast } from "react-toastify";
+
 
 const SHIPMENT_STATUS_ENUM = ["Pending", "InTransit", "Delivered"];
 
 export const getProvider = () => {
-  if (!window.ethereum) throw new Error("MetaMask not found!");
+  if (!window.ethereum) {
+    toast.error("Please install MetaMask extension for your browser.");
+    throw new Error("MetaMask not found!");
+  }
   return new ethers.BrowserProvider(window.ethereum);
 };
 
