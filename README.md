@@ -54,6 +54,22 @@ supply-chain-dapp/
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard Page
+![Dashboard Screenshot](./Screenshots/dash2_supply.png)
+
+### Profile Page
+![Profile Screenshot](./Screenshots/profile_Supply.png)
+
+### Register Shipment Page
+![Register Page Screenshot](./Screenshots/dash3_Supply.png)
+
+### Track Shipment Page
+![Track Page Screenshot](./screenshots/dash4_Supply.png)
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
