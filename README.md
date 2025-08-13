@@ -66,7 +66,7 @@ supply-chain-dapp/
 ![Register Page Screenshot](./Screenshots/dash3_Supply.png)
 
 ### Track Shipment Page
-![Track Page Screenshot](./screenshots/dash4_Supply.png)
+![Track Page Screenshot](./Screenshots/dash4_Supply.png)
 
 ---
 
